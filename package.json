@@ -1,0 +1,8 @@
+{
+  "name": "Facebook Marketplace Sorter",
+  "version": "1.0.0",
+  "description": "Extension that sorts the items on the facebook marketplace by date",
+  "keywords": ["Chrome", "Extension", "Facebook", "Marketplace"],
+  "author": "Robert Stamper",
+  "license": "ISC"
+}

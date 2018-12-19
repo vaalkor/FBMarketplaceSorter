@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Facebook Marketplace Sorter",
+    "description": "Extension that sorts the items on the facebook marketplace by date",
+    "version": "1.0",
+    "content_scripts" : [
+		{
+			"matches" : ["https://*.facebook.com/marketplace/*"],
+            "js" : ["jquery-3.3.1.min.js", "content_script.js"]
+		}
+    ],
+    "icons": {
+        "512": "icon.png"
+    }
+}
