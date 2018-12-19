@@ -5,9 +5,9 @@
     "version": "1.0",
     "content_scripts" : [
 		{
-			"matches" : ["https://*.facebook.com/marketplace/*"],
+            "matches" : ["https://*.facebook.com/marketplace/*"],
             "js" : ["jquery-3.3.1.min.js", "content_script.js"]
-		}
+        }
     ],
     "icons": {
         "512": "icon.png"
